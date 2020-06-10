@@ -11,89 +11,89 @@ msgstr ""
 "PO-Revision-Date: 2020-02-18T19:18:25+00:00\n"
 "Language: \n"
 
-msgid "plugins.themes.bootstrap3.name"
-msgstr "Bootstrap 3 Base Theme"
+msgid "plugins.themes.uasd.name"
+msgstr "UASD Base Theme"
 
-msgid "plugins.themes.bootstrap3.description"
-msgstr "A starter Bootstrap 3 theme for the reader frontend."
+msgid "plugins.themes.uasd.description"
+msgstr "A starter UASD theme for the reader frontend."
 
-msgid "plugins.themes.bootstrap3.accessible_menu.label"
+msgid "plugins.themes.uasd.accessible_menu.label"
 msgstr "Quick jump to page content"
 
-msgid "plugins.themes.bootstrap3.accessible_menu.main_navigation"
+msgid "plugins.themes.uasd.accessible_menu.main_navigation"
 msgstr "Main Navigation"
 
-msgid "plugins.themes.bootstrap3.accessible_menu.main_content"
+msgid "plugins.themes.uasd.accessible_menu.main_content"
 msgstr "Main Content"
 
-msgid "plugins.themes.bootstrap3.accessible_menu.sidebar"
+msgid "plugins.themes.uasd.accessible_menu.sidebar"
 msgstr "Sidebar"
 
-msgid "plugins.themes.bootstrap3.article.sidebar"
+msgid "plugins.themes.uasd.article.sidebar"
 msgstr "Article Sidebar"
 
-msgid "plugins.themes.bootstrap3.article.main"
+msgid "plugins.themes.uasd.article.main"
 msgstr "Main Article Content"
 
-msgid "plugins.themes.bootstrap3.article.details"
+msgid "plugins.themes.uasd.article.details"
 msgstr "Article Details"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.label"
+msgid "plugins.themes.uasd.options.bootstrapTheme.label"
 msgstr "Bootstrap Theme"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.description"
+msgid "plugins.themes.uasd.options.bootstrapTheme.description"
 msgstr "Select one of these open-source Bootstrap themes which change the colors and typography of your website."
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.bootstrap3"
+msgid "plugins.themes.uasd.options.bootstrapTheme.bootstrap3"
 msgstr "Default Bootstrap Theme"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.cerulean"
+msgid "plugins.themes.uasd.options.bootstrapTheme.cerulean"
 msgstr "Cerulean"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.cleanblog"
+msgid "plugins.themes.uasd.options.bootstrapTheme.cleanblog"
 msgstr "Clean Blog"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.cosmo"
+msgid "plugins.themes.uasd.options.bootstrapTheme.cosmo"
 msgstr "Cosmo"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.cyborg"
+msgid "plugins.themes.uasd.options.bootstrapTheme.cyborg"
 msgstr "Cyborg"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.darkly"
+msgid "plugins.themes.uasd.options.bootstrapTheme.darkly"
 msgstr "Darkly"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.flatly"
+msgid "plugins.themes.uasd.options.bootstrapTheme.flatly"
 msgstr "Flatly"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.journal"
+msgid "plugins.themes.uasd.options.bootstrapTheme.journal"
 msgstr "Journal"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.lumen"
+msgid "plugins.themes.uasd.options.bootstrapTheme.lumen"
 msgstr "Lumen"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.paper"
+msgid "plugins.themes.uasd.options.bootstrapTheme.paper"
 msgstr "Paper"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.readable"
+msgid "plugins.themes.uasd.options.bootstrapTheme.readable"
 msgstr "Readable"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.sandstone"
+msgid "plugins.themes.uasd.options.bootstrapTheme.sandstone"
 msgstr "Sandstone"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.simplex"
+msgid "plugins.themes.uasd.options.bootstrapTheme.simplex"
 msgstr "Simplex"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.slate"
+msgid "plugins.themes.uasd.options.bootstrapTheme.slate"
 msgstr "Slate"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.spacelab"
+msgid "plugins.themes.uasd.options.bootstrapTheme.spacelab"
 msgstr "Spacelab"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.superhero"
+msgid "plugins.themes.uasd.options.bootstrapTheme.superhero"
 msgstr "Superhero"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.united"
+msgid "plugins.themes.uasd.options.bootstrapTheme.united"
 msgstr "United"
 
-msgid "plugins.themes.bootstrap3.options.bootstrapTheme.yeti"
+msgid "plugins.themes.uasd.options.bootstrapTheme.yeti"
 msgstr "Yeti"
