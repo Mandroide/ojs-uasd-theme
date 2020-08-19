@@ -9,7 +9,9 @@
  *
  *}
 {include file="frontend/components/header.tpl"}
-
+<!-- Carousel ================================================== -->
+{include file="frontend/components/carousel.tpl"}
+<!-- /.carousel -->
 <div id="main-site" class="page_index_site">
 
 	{if $about}
@@ -17,7 +19,6 @@
 			{$about|nl2br}
 		</div>
 	{/if}
-
 	<div class="journals">
 		<div class="page-header">
 			<h2>
