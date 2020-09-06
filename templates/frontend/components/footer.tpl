@@ -31,7 +31,7 @@
 
 			<div class="row">
 
-				<div class="col-sm-4" style="margin-left: -08px;">
+				<div class="col-sm-4">
 					<h5>{translate|escape key="uasd.footer.links"}</h5>
 					<a href="https://uasd.edu.do/" target="blank">{translate|escape key="uasd.footer.main-portal"}</a><br>			
           <a href="https://uasd.edu.do/index.php/informacion-general" target="blank">{translate|escape key="uasd.footer.indices"}</a><br>
@@ -39,7 +39,7 @@
           <a href="https://uasd.edu.do/index.php/contactanos" target="blank">{translate|escape key="uasd.footer.contact"}</a><br>
         </div>
         
-				<div class="col-sm-4" style="margin-left: -08px;">
+				<div class="col-sm-4">
           <h5>{translate|escape key="uasd.footer.library"}</h5>
           <a href="https://catalogo.uasd.edu.do/" target="blank">{translate|escape key="uasd.footer.online-catalog"}</a><br>
           <a href="https://catalogo.uasd.edu.do/" target="blank">{translate|escape key="uasd.footer.institutional-repository"}</a><br>
@@ -47,7 +47,7 @@
           <a href="https://catalogo.uasd.edu.do/" target="blank">{translate|escape key="uasd.footer.ebooks"}</a><br>
 				</div>
 
-				<div class="col-sm-4" style="margin-left: -08px;">
+				<div class="col-sm-4">
           <h5>{translate|escape key="uasd.footer.interest"}</h5>
           <a href="https://pkp.sfu.ca/ojs/" target="blank">{translate|escape key="uasd.footer.ojs-info"}</a><br>
           <a href="https://pkp.sfu.ca/scholarly-inquiry/" target="blank">{translate|escape key="uasd.footer.ojs-scholarly-inquiry"}</a><br>
