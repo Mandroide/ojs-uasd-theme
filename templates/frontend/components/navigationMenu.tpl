@@ -15,6 +15,24 @@
 
 {if $navigationMenu}
 	<ul id="{$id|escape}" class="{$ulClass|escape}">
+		{if ($id|escape) == 'main-navigation'}
+			{if $currentContext}
+				<li class="{$liClass|escape}">
+					<a href="{$baseUrl}">{translate|escape key="uasd.nav.item.homepage"}</a>
+				</li>
+				<li class="{$liClass|escape}">
+					<a href="{url|escape page=$currentJournal}">{translate|escape key="uasd.nav.item.index"}</a>
+				</li>
+			{else}
+				<li class="{$liClass|escape}">
+					<a href="{$baseUrl}">{translate|escape key="uasd.nav.item.index"}</a>
+				</li>
+				<li class="{$liClass|escape}">
+					<a href="{$baseUrl}/info">{translate|escape key="uasd.nav.item.info"}</a>
+				</li>
+			{/if}
+		{/if}
+		
 		{foreach key=field item=navigationMenuItemAssignment from=$navigationMenu->menuTree}
 			{if !$navigationMenuItemAssignment->navigationMenuItem->getIsDisplayed()}
 				{continue}
