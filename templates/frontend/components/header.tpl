@@ -34,8 +34,7 @@
 			</ul>
 		</nav>
 
-    
-		{include file="frontend/components/headerSearch.tpl"}
+		{include file="frontend/components/headerLogo.tpl"}
 
 		{* Header *}
 		<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
@@ -66,16 +65,19 @@
 								{url context="index" router=$smarty.const.ROUTE_PAGE}
 							{/if}
 						{/capture}
-						{if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
-							<a href="{$homeUrl}" class="navbar-brand navbar-brand-logo">
-								<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if}>
-							</a>
-						{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_string($displayPageHeaderTitle)}
-							<a href="{$homeUrl}" class="navbar-brand">{$displayPageHeaderTitle}</a>
-						{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_array($displayPageHeaderTitle)}
-							<a href="{$homeUrl}" class="navbar-brand navbar-brand-logo">
-								<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" alt="{$displayPageHeaderTitle.altText|escape}">
-							</a>
+						
+						{if $currentContext}
+							{if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
+								<a href="{$homeUrl}" class="navbar-brand navbar-brand-logo">
+									<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if}>
+								</a>
+							{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_string($displayPageHeaderTitle)}
+								<a href="{$homeUrl}" class="navbar-brand">{$displayPageHeaderTitle}</a>
+							{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_array($displayPageHeaderTitle)}
+								<a href="{$homeUrl}" class="navbar-brand navbar-brand-logo">
+									<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" alt="{$displayPageHeaderTitle.altText|escape}">
+								</a>
+							{/if}
 						{/if}
 					{if $requestedOp == 'index'}
 						</h1>
@@ -94,6 +96,13 @@
 					<nav id="nav-menu" class="navbar-collapse collapse" aria-label="{translate|escape key="common.navigation.site"}">
 						{* Primary navigation menu for current application *}
 						{$primaryMenu}
+						
+						{* Search form *}
+						{if $currentContext}
+							<div class="pull-md-right">
+								{include file="frontend/components/searchForm_simple.tpl"}
+							</div>
+						{/if}
 					</nav>
 				{/if}
 				
@@ -104,7 +113,7 @@
 
 			</div><!-- .pkp_head_wrapper -->
 		</header><!-- .pkp_structure_head -->
-  
+
 		{* Wrapper for page content and sidebars *}
 		<div class="pkp_structure_content container">
 			<main class="pkp_structure_main col-xs-12 col-sm-10 col-md-8" role="main">
