@@ -102,6 +102,16 @@ msgstr "Yeti"
 msgid "uasd.logo.img-alt"
 msgstr "Logo de la UASD"
 
+# Navigation menu
+msgid "uasd.nav.item.homepage"
+msgstr "Portal de revistas"
+
+msgid "uasd.nav.item.index"
+msgstr "Inicio"
+
+msgid "uasd.nav.item.info"
+msgstr "Información General"
+
 # Carousel
 msgid "uasd.carousel.sign-up"
 msgstr "Registrate ahora"
